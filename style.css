@@ -1,0 +1,91 @@
+@import https://fonts.googleapis.com/css?family=Open+Sans;
+
+body {
+    font-family: Verdana, sans-serif; 
+    margin: 0;
+}
+
+#header {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(60, 98, 212);
+    border: 5px;
+    border-style: outset;
+    border-color: rgb(176, 211, 222);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #333;
+}
+
+#header > h1 {
+    margin-bottom: 0px;
+}
+
+#header > h2 {
+    font-size: 1.3em;
+    font-family: 'Garamond', serif;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+#content{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#content  h2 {
+    border-bottom: 1px solid #999999;
+}
+
+.rank {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+#content  p {
+    text-align: justify;
+    text-indent: 2em;
+    color: #999999;
+ }
+
+ #content  p::first-line {
+     color: rgb(0, 0, 0);
+  }
+
+#content a:link {
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
+#content a:hover {
+  text-decoration: underline;
+} 
+
+#footer {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+#calendar {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#calendar  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#calendar > ul > li:nth-child(2) > a {
+    font-weight: bold;
+}
+
+#calendar > ul > li + li + li{
+    list-style-type: circle;
+}
+
+#footer p {
+    color: rgb(255, 255, 0);
+    text-align: center;
+    font-style: oblique;
+}
